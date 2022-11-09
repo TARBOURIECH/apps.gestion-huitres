@@ -690,7 +690,7 @@
                       "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "tmnq2ahvuj",
-                      "tableData": "{{Complet_loupian.data}}",
+                      "tableData": "{{Complet_Marseillan.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "0mfwkm7zw9",
@@ -1605,7 +1605,7 @@
                       "rightColumn": 64,
                       "textSize": "0.875rem",
                       "widgetId": "zgt5lv69kn",
-                      "tableData": "{{Alarme_Loupian.data}}",
+                      "tableData": "{{Alarme_Marseillan.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "hzalis676c",
@@ -2409,7 +2409,7 @@
                       "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "dgcz65fc3d",
-                      "tableData": "{{Exondation_Loupian.data}}",
+                      "tableData": "{{Exondation_Marseillan.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "pra8pbkm2a",
@@ -2562,6 +2562,47 @@
             {
               "id": "France Marseillan_Exondation_Loupian",
               "name": "Exondation_Loupian",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(table_exondation_marseillan.pageNo - 1) * table_exondation_marseillan.pageSize",
+                "moment(finDate_marseillan.selectedDate).unix()",
+                "table_exondation_marseillan.pageSize",
+                "moment(debutDate_marseillan.selectedDate).unix()"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "France Marseillan_Alarme_Marseillan",
+              "name": "Alarme_Marseillan",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "moment(finDate_marseillan.selectedDate).unix()",
+                "moment(debutDate_marseillan.selectedDate).unix()",
+                "table_alarme_marseillan.pageSize",
+                "(table_alarme_marseillan.pageNo - 1) * table_alarme_marseillan.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "France Marseillan_Complet_Marseillan",
+              "name": "Complet_Marseillan",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(table_complet_marseillan.pageNo - 1) * table_complet_marseillan.pageSize",
+                "table_complet_marseillan.pageSize",
+                "moment(finDate_marseillan.selectedDate).unix()",
+                "moment(debutDate_marseillan.selectedDate).unix()"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "France Marseillan_Exondation_Marseillan",
+              "name": "Exondation_Marseillan",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
