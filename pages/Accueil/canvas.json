@@ -313,13 +313,23 @@
                           "label": "Gestion Tables",
                           "iconName": "add",
                           "id": "groupButton2",
-                          "buttonType": "SIMPLE",
+                          "buttonType": "MENU",
                           "placement": "CENTER",
                           "widgetId": "",
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 1,
-                          "menuItems": {},
+                          "menuItems": {
+                            "menuItemcvtzhs7klt": {
+                              "id": "menuItemcvtzhs7klt",
+                              "index": 0,
+                              "label": "France Loupian",
+                              "widgetId": "5ghldl3csr",
+                              "isDisabled": false,
+                              "isVisible": true,
+                              "onClick": "{{navigateTo('France Loupian', {}, 'SAME_WINDOW')}}"
+                            }
+                          },
                           "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                         },
                         "groupButton3": {
@@ -378,6 +388,9 @@
                       "dynamicTriggerPathList": [
                         {
                           "key": "groupButtons.groupButton1.menuItems.menuItemk06sfui2vx.onClick"
+                        },
+                        {
+                          "key": "groupButtons.groupButton2.menuItems.menuItemcvtzhs7klt.onClick"
                         }
                       ],
                       "leftColumn": 19,
