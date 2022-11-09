@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Complet_loupian",
+    "name": "Complet_Loupian",
     "datasource": {
       "name": "Gestion_Huitres",
       "pluginId": "mysql-plugin",
@@ -46,7 +46,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "France Marseillan_Complet_loupian",
+  "id": "France Marseillan_Complet_Loupian",
   "deleted": false,
   "gitSyncId": "634ea33b66fdf539a580f60c_636b849a40794615bb9fceb1"
 }

@@ -75,7 +75,7 @@
               "labelPosition": "Left",
               "isDisabled": false,
               "key": "ztmdc41mhc",
-              "onDateSelected": "{{Complet_loupian.run() + Alarme_Loupian.run() + Exondation_Loupian.run()}} ",
+              "onDateSelected": "{{Complet_Loupian.run() + Alarme_Loupian.run() + Exondation_Loupian.run()}} ",
               "labelTextSize": "0.875rem",
               "isRequired": false,
               "defaultDate": "{{moment()}}",
@@ -690,7 +690,7 @@
                       "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "tmnq2ahvuj",
-                      "tableData": "{{Complet_loupian.data}}",
+                      "tableData": "{{Complet_Loupian.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "0mfwkm7zw9",
@@ -2444,7 +2444,7 @@
               "widgetId": "ek90fia5ng",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "Complet par date",
-              "onTabSelected": "{{Complet_loupian.run()}}",
+              "onTabSelected": "{{Complet_Loupian.run()}}",
               "shouldShowTabs": true,
               "tabsObj": {
                 "tab1": {
@@ -2547,8 +2547,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "France Loupian_Complet_loupian",
-              "name": "Complet_loupian",
+              "id": "France Loupian_Complet_Loupian",
+              "name": "Complet_Loupian",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
