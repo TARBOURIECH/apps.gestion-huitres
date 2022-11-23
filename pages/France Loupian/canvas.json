@@ -212,7 +212,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 800,
+                  "bottomRow": 790,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -235,7 +235,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 1,
+                      "topRow": 0,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -382,7 +382,7 @@
                       ],
                       "compactMode": "SHORT",
                       "displayName": "Table",
-                      "bottomRow": 78,
+                      "bottomRow": 77,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 62,
@@ -671,7 +671,7 @@
                           "fontStyle": "",
                           "enableFilter": true,
                           "enableSort": true,
-                          "isVisible": true,
+                          "isVisible": false,
                           "isDisabled": false,
                           "isCellEditable": false,
                           "isEditable": false,
@@ -864,7 +864,7 @@
                           "key": "primaryColumns.PLC.computedValue"
                         }
                       ],
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "delimiter": ",",
                       "defaultSelectedRowIndex": 0,
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1602,7 +1602,7 @@
                       },
                       "key": "huboxwxk1h",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "zgt5lv69kn",
                       "tableData": "{{Alarme_Loupian.data}}",
@@ -1768,7 +1768,7 @@
                           "key": "primaryColumns.PLC.computedValue"
                         }
                       ],
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "delimiter": ",",
                       "defaultSelectedRowIndex": 0,
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
